@@ -1,0 +1,143 @@
+cars=["bmw","mahindra","suxuki","rolls royce","bentley","aston martin","tata","audi","mustang"]
+
+1]  append ferrari in list
+
+cars=["bmw","mahindra","suxuki","rolls royce","bentley","aston martin","tata","audi","mustang"]
+cars.append("ferrari")
+print(cars)                # ['bmw', 'mahindra', 'suxuki', 'rolls royce', 'bentley', 'aston martin', 'tata', 'audi', 'mustang', 'ferrari']
+
+
+
+2] insert porsche at index 3
+
+cars=["bmw","mahindra","suxuki","rolls royce","bentley","aston martin","tata","audi","mustang"]
+cars.insert(3,"porsche")
+print(cars)                     # ['bmw', 'mahindra', 'suxuki', 'porsche', 'rolls royce', 'bentley', 'aston martin', 'tata', 'audi', 'mustang']
+
+
+
+3] clear all element from the list
+
+cars=["bmw","mahindra","suxuki","rolls royce","bentley","aston martin","tata","audi","mustang"]
+cars.clear()
+print(cars)  # []
+
+
+
+4] sort the original list of cars in alphabetical order
+
+cars=["bmw","mahindra","suxuki","rolls royce","bentley","aston martin","tata","audi","mustang"]
+cars.sort()
+print(cars)   # ['aston martin', 'audi', 'bentley', 'bmw', 'mahindra', 'mustang', 'rolls royce', 'suxuki', 'tata']
+
+
+
+5] remove audi from the list
+
+cars=["bmw","mahindra","suxuki","rolls royce","bentley","aston martin","tata","audi","mustang"]
+cars.remove("audi")
+print(cars)   
+
+
+
+6] find the index of mustang
+
+cars=["bmw","mahindra","suxuki","rolls royce","bentley","aston martin","tata","audi","mustang"]
+print(cars.index("mustang"))     # 8
+
+
+
+
+7] extend the list with another list of cars ["tesla","nessan"]
+
+cars=["bmw","mahindra","suxuki","rolls royce","bentley","aston martin","tata","audi","mustang"]
+cars.extend(["tesla","nessan"])
+print(cars)   
+
+
+
+8] pop the last element from the list and print it
+
+cars=["bmw","mahindra","suxuki","rolls royce","bentley","aston martin","tata","audi","mustang"]
+cars.pop()
+print(cars)   
+
+
+
+9] count how many times bmw appears in list
+
+cars=["bmw","mahindra","suxuki","rolls royce","bentley","aston martin","tata","audi","mustang"]
+print(cars.count("bmw"))
+
+
+
+10] append multiple cars ["jaguar","fiat"] in list 
+
+cars=["bmw","mahindra","suxuki","rolls royce","bentley","aston martin","tata","audi","mustang"]
+cars.append(["jaguar","fiat"])
+print(cars)   
+
+
+
+11] insert multiple cars ["volvo","honda"] at index 2
+
+cars=["bmw","mahindra","suxuki","rolls royce","bentley","aston martin","tata","audi","mustang"]
+cars.insert(2,"honda")
+cars.insert(2,"volvo")
+print(cars)   
+
+
+
+12] check if the list is empty and cleare it if it is
+
+cars=["bmw","mahindra","suxuki","rolls royce","bentley","aston martin","tata","audi","mustang"]
+cars.clear()
+print(cars)  
+print(cars) 
+
+
+
+13] sort the original oreder of cars in decending order.
+
+cars=["bmw","mahindra","suxuki","rolls royce","bentley","aston martin","tata","audi","mustang"]
+cars.sort(reverse=True)
+print(cars) 
+
+
+
+14] remove all occurrences of "bmw" from the list
+
+cars=["bmw","mahindra","suxuki","rolls royce","bentley","aston martin","tata","audi","mustang"]
+cars.pop(0)
+print(cars) 
+
+
+15] find the last index of tata
+
+cars=["bmw","mahindra","suxuki","rolls royce","bentley","aston martin","tata","audi","mustang"]
+print(cars.index("tata"))
+
+
+
+16] extend the list with ["ferrari","lambo"] only if "bmw" is in list.
+
+cars=["bmw","mahindra","suxuki","rolls royce","bentley","aston martin","tata","audi","mustang"]
+if "bmw" in cars:
+    cars.extend(["ferrari","lambo"])
+    print(cars) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
