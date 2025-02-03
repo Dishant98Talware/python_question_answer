@@ -1,1 +1,1 @@
-# This is python list Questin-Answer for practice
+# This is python list Question-Answer for practice
